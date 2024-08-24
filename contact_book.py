@@ -4,7 +4,7 @@ from tkinter import messagebox
 
 root = Tk()
 root.geometry('700x550')
-root.config(bg='#343a40')  # changed background color
+root.config(bg='#343a40')
 root.title('PythonGeeks Contact Book')
 root.resizable(0, 0)
 
@@ -24,7 +24,7 @@ Name = StringVar()
 Number = StringVar()
 Email = StringVar()
 
-frame = Frame(root, bg='#343a40')  # changed frame background color
+frame = Frame(root, bg='#343a40')
 frame.pack(side=RIGHT, fill=Y)
 
 scroll = Scrollbar(frame, orient=VERTICAL, width=15)  # changed scrollbar width
