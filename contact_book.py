@@ -112,8 +112,8 @@ def Select_set():
 
 Select_set()
 
-Label(root, text='Name', font=("Times new roman", 22, "bold"), bg='#343a40', fg='white').place(x=30, y=20)  # changed label background and text color
-Entry(root, textvariable=Name, width=30, bg='#f0f0f0', fg='black').place(x=200, y=30)  # changed entry background and text color
+Label(root, text='Name', font=("Times new roman", 22, "bold"), bg='#343a40', fg='white').place(x=30, y=20)
+Entry(root, textvariable=Name, width=30, bg='#f0f0f0', fg='black').place(x=200, y=30)
 Label(root, text='Contact No.', font=("Times new roman", 20, "bold"), bg='#343a40', fg='white').place(x=30, y=70)
 
 
@@ -121,9 +121,9 @@ Entry(root, textvariable=Number, width=30, bg='#f0f0f0', fg='black').place(x=200
 Label(root, text='Email', font=("Times new roman", 20, "bold"), bg='#343a40', fg='white').place(x=30, y=120)
 Entry(root, textvariable=Email, width=30, bg='#f0f0f0', fg='black').place(x=200, y=130)
 
-Button(root, text=" ADD ➕", font='Helvetica 18 bold', bg='#34c759', fg='white', command=AddContact, padx=20).place(x=50, y=170)  # changed button background and text color
+Button(root, text=" ADD ➕", font='Helvetica 18 bold', bg='#34c759', fg='white', command=AddContact, padx=20).place(x=50, y=170)
 Button(root, text="EDIT ✂️", font='Helvetica 18 bold', bg='#34c759', fg='white', command=UpdateDetail, padx=20).place(x=50, y=230)
-Button(root, text="DELETE 🗑️", font='Helvetica 18 bold', bg='#e74c3c', fg='white', command=Delete_Entry, padx=20).place(x=50, y=290)  # changed button background and text color
+Button(root, text="DELETE 🗑️", font='Helvetica 18 bold', bg='#e74c3c', fg='white', command=Delete_Entry, padx=20).place(x=50, y=290)
 Button(root, text="VIEW 🔍", font='Helvetica 18 bold', bg='#34c759', fg='white', command=VIEW, padx=20).place(x=50, y=350)
 Button(root, text="RESET ↩️", font='Helvetica 18 bold', bg='#34c759', fg='white', command=EntryReset, padx=20).place(x=50, y=410)
 Button(root, text="EXIT ❌", font='Helvetica 24 bold', bg='tomato', fg='white', command=EXIT, padx=20).place(x=250, y=470)
