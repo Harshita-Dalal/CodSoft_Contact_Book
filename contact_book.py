@@ -27,7 +27,7 @@ Email = StringVar()
 frame = Frame(root, bg='#343a40')
 frame.pack(side=RIGHT, fill=Y)
 
-scroll = Scrollbar(frame, orient=VERTICAL, width=15)  # changed scrollbar width
+scroll = Scrollbar(frame, orient=VERTICAL, width=15)
 select = Listbox(frame, yscrollcommand=scroll.set, font=('Times new roman', 16), bg="#f0fffc", width=20, height=20,
                  borderwidth=3, relief="groove")
 scroll.config(command=select.yview)
